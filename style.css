@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  background-color: black;
+  padding: 1vw;
+  position: sticky;
+  top: 0;
+}
+nav {
+  display: flex;
+  width: 100%;
+}
+.head {
+  color: white;
+  margin: 2vw;
+  border: solid white;
+  padding: 1.5vw;
+  top: vw;
+}
+
+a {
+  color: white;
+  font-size: 2.5vw;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+a:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.logga {
+  width: 10vw;
+  height: 7vw;
+  margin-right: 2vw;
+  padding: 1.5vw;
+}
+
+.meny {
+  margin-left: 20%;
+  width: 11vw;
+}
