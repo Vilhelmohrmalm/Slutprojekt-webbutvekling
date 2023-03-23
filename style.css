@@ -42,6 +42,16 @@ a:hover {
 }
 
 .meny {
-  margin-left: 20%;
+  margin-left: 1%;
   width: 11vw;
+}
+
+.Hero {
+  width: 100vw;
+  height: 50vw;
+  background-image: url(images/backgrunds\ bild.gif);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
