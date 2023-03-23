@@ -70,4 +70,10 @@ section {
 
 .rektext {
   margin-left: 4vw;
+  width: 22vw;
+}
+
+.reklänk {
+  color: black;
+  margin-left: 13vw;
 }
