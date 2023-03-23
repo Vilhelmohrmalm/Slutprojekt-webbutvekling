@@ -19,7 +19,6 @@ nav {
   margin: 2vw;
   border: solid white;
   padding: 1.5vw;
-  top: vw;
 }
 
 a {
@@ -54,4 +53,21 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+section {
+  display: flex;
+}
+
+.kolum {
+  width: 50%;
+  margin: 10px;
+  padding: 5px;
+  color: rgb(0, 0, 0);
+  font-size: 2vw;
+  display: flex;
+}
+
+.rektext {
+  margin-left: 3%;
 }
