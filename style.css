@@ -6,7 +6,7 @@
 header {
   display: flex;
   background-color: black;
-  padding: 1vw;
+  padding: 0.1vw;
   position: sticky;
   top: 0;
 }
@@ -17,8 +17,9 @@ nav {
 .head {
   color: white;
   margin: 2vw;
+  margin-bottom: 2vw;
   border: solid white;
-  padding: 1.5vw;
+  padding: 1vw;
 }
 
 a {
@@ -34,19 +35,19 @@ a:hover {
 }
 
 .logga {
-  width: 10vw;
-  height: 7vw;
+  width: 8vw;
+  height: 5.5vw;
   margin-right: 2vw;
   padding: 1.5vw;
 }
 
 .meny {
-  margin-left: 1%;
-  width: 11vw;
+  margin-left: 9.5vw;
+  width: 9vw;
 }
 
 .Hero {
-  width: 100vw;
+  width: 100%;
   height: 50vw;
   background-image: url(images/backgrunds\ bild.gif);
   background-size: cover;
@@ -61,11 +62,12 @@ section {
 
 .kolum {
   width: 50%;
-  margin: 10px;
+  margin: 0.5vw;
   padding: 5px;
   color: rgb(0, 0, 0);
   font-size: 2vw;
   display: flex;
+  overflow: hidden;
 }
 
 .rektext {
@@ -76,4 +78,9 @@ section {
 .reklänk {
   color: black;
   margin-left: 13vw;
+}
+
+.rekbild {
+  width: auto;
+  height: auto;
 }
