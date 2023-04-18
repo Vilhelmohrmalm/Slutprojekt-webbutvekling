@@ -1,0 +1,22 @@
+section {
+  margin-top: 3vw;
+  margin-left: 2vw;
+  font-size: 3vw;
+}
+
+.plats {
+  display: flex;
+  margin-bottom: 5vw;
+}
+
+.platsbild {
+  margin-right: 2vw;
+}
+
+.platslänk {
+  color: black;
+}
+
+.platstext {
+  font-family: "Raleway", sans-serif;
+}
