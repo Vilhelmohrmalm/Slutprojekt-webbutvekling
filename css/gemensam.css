@@ -46,54 +46,16 @@ a:hover {
   width: 9vw;
 }
 
-.Hero {
-  width: 100%;
-  height: 50vw;
-  background-image: url(images/backgrunds\ bild.gif);
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-section {
-  display: flex;
-}
-
-.kolum {
-  width: 50%;
-  margin: 0.5vw;
-  padding: 5px;
-  color: rgb(0, 0, 0);
-  font-size: 2vw;
-  display: flex;
-  overflow: hidden;
-}
-
-.rektext {
-  margin: 0 4vw;
-  width: 22vw;
-}
-
-.reklänk {
-  color: black;
-  margin-left: 13vw;
-}
-
-.rekbild {
-  width: auto;
-  height: auto;
-}
-
 .kontaktinfo {
   color: rgb(255, 255, 255);
   width: auto;
   height: auto;
-  padding: 20px;
+  padding-top: 7px;
   font-size: 25px;
   text-align: center;
   margin-top: 50px;
   background-color: black;
+
   width: 100%;
 }
 
