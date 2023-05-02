@@ -12,11 +12,11 @@
   font-size: 1.3vw;
   color: rgb(239, 233, 233);
   border: solid black;
-  width: 50vw;
+  width: 48vw;
   padding-left: 1vw;
   background-color: grey;
   margin-left: 4vw;
-  display: none;
+  visibility: hidden;
 }
 
 .gömd_salong:hover {

@@ -36,6 +36,11 @@ a:hover {
   transition: 0.3s;
 }
 
+.meny:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
 .logga {
   width: 8vw;
   height: 5.5vw;

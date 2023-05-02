@@ -1,3 +1,4 @@
 function salong(){
-document.getElementsByClassName(gömd_salong).style.display = none
+ document.getElementsByClassName(gömd_salong).style.visibility = visible
+ 
 }
