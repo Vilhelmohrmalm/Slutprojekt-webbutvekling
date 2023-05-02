@@ -1,0 +1,27 @@
+form {
+  margin-left: 5vw;
+  margin-top: 2vw;
+  font-size: 1.2vw;
+  color: rgb(1, 14, 26);
+}
+
+#meddelande {
+  padding: 3vw;
+}
+
+button {
+  margin-left: 5vw;
+  margin-top: 1vw;
+  font-size: 1.5vw;
+}
+
+@media screen and (max-width: 930px) {
+  form {
+    font-size: 9vw;
+  }
+
+  button {
+    font-size: 5vw;
+    width: 30vw;
+  }
+}
