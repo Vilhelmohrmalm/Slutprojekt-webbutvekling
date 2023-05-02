@@ -1,4 +1,4 @@
-.val_salong {
+.val {
   font-size: 2vw;
   margin-top: 3vw;
   margin-left: 4vw;
@@ -8,7 +8,19 @@
   text-align: center;
 }
 
-.gömd_salong {
+#salonger {
+  display: none;
+}
+
+#behandling {
+  display: none;
+}
+
+#tid {
+  display: none;
+}
+
+.minival {
   font-size: 1.3vw;
   color: rgb(239, 233, 233);
   border: solid black;
@@ -16,15 +28,14 @@
   padding-left: 1vw;
   background-color: grey;
   margin-left: 4vw;
-  visibility: hidden;
 }
 
-.gömd_salong:hover {
+.minival:hover {
   transform: scale(1.1);
   transition: 0.3s;
 }
 
-.val_salong:hover {
+.val:hover {
   transform: scale(1.1);
   transition: 0.3s;
 }

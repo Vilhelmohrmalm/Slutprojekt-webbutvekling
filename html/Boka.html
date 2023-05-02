@@ -25,13 +25,28 @@
     </header>
     <section>
       <div>
-        <button class="val_salong" onclick="salong()">välj salong</button>
-        <div class="frame">
-          <div class="gömd_salong">Täby C</div>
-          <div class="gömd_salong">Näsbypark C</div>
-          <div class="gömd_salong">Arninge C</div>
+        <button class="val" onclick="salong()">välj salong</button>
+        <div id="salonger" class="frame">
+          <div class="minival">Täby C</div>
+          <div class="minival">Näsbypark C</div>
+          <div class="minival">Arninge C</div>
         </div>
-      </div>
+        <div>
+          <button class="val" onclick="behandling()">välj behandling</button>
+          <div id="behandling" class="frame">
+            <div class="minival">Klippning</div>
+            <div class="minival">Färgning</div>
+            <div class="minival">Styling</div>
+          </div>
+        </div>
+        <div>
+          <button class="val" onclick="tid()">välj behandling</button>
+          <div id="tid" class="frame">
+            <div class="minival">Klippning</div>
+            <div class="minival">Färgning</div>
+            <div class="minival">Styling</div>
+          </div>
+        </div>
     </section>
     <footer class="kontaktinfo">
       <h3>kontakta oss</h3>
@@ -43,4 +58,5 @@
     </footer>
   </body>
   <script src="../js/Boka.js"></script>
+  <script src="../js/gemensam.js"></script>
 </html>
