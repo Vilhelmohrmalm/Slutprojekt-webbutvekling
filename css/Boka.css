@@ -28,14 +28,20 @@
   padding-left: 1vw;
   background-color: grey;
   margin-left: 4vw;
+  display: flex;
 }
 
-.minival:hover {
-  transform: scale(1.1);
-  transition: 0.3s;
+.check {
+  width: 1vw;
+  margin-left: 1vw;
 }
 
-.val:hover {
-  transform: scale(1.1);
-  transition: 0.3s;
+.boka {
+  font-size: 2vw;
+  margin-top: 3vw;
+  margin-left: 4vw;
+  border: solid black;
+  padding: 0.5vw;
+  width: 25vw;
+  text-align: center;
 }
