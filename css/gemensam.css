@@ -5,13 +5,10 @@
   padding: 0;
 }
 
-header {
-  display: flex;
+#headervanlig {
   background-color: black;
-  padding: 0.1vw;
-  position: sticky;
-  top: 0;
 }
+
 nav {
   display: flex;
   width: 100%;
@@ -36,6 +33,7 @@ a {
   height: 5.5vw;
   margin-right: 2vw;
   padding: 1.5vw;
+  border-radius: 4vw;
 }
 
 .meny {

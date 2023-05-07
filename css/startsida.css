@@ -3,9 +3,8 @@
   height: 50vw;
   background-image: url(../images/backgrunds\ bild.gif);
   background-size: cover;
-  display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 section {
