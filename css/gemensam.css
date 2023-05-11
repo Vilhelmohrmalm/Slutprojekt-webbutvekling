@@ -31,13 +31,13 @@ a {
 .logga {
   width: 8vw;
   height: 5.5vw;
-  margin-right: 2vw;
+  margin-right: 15vw;
   padding: 1.5vw;
   border-radius: 4vw;
 }
 
 .meny {
-  margin-left: 9.5vw;
+  margin-left: 17vw;
   width: 9vw;
 }
 
@@ -66,4 +66,7 @@ a {
 .hover:hover {
   transform: scale(1.1);
   transition: 0.3s;
+}
+
+@media screen and (max-width: 930px) {
 }
