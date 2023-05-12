@@ -45,3 +45,28 @@
   width: 25vw;
   text-align: center;
 }
+
+@media screen and (max-width: 930px) {
+  .val {
+    scale: 1.5;
+    margin: 5vw;
+    margin-left: 20vw;
+  }
+
+  .boka {
+    scale: 1.5;
+  }
+
+  .frame {
+    scale: 1.5;
+    margin-left: 20vw;
+    margin-bottom: 1vw;
+  }
+
+  .minival {
+    font-size: 3vw;
+  }
+  .check {
+    width: 3vw;
+  }
+}

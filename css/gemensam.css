@@ -36,6 +36,26 @@ a {
   border-radius: 4vw;
 }
 
+#hamburgarmeny {
+  background-color: black;
+  flex-direction: column;
+  margin-left: 75vw;
+  width: 20vw;
+  height: 20vw;
+  position: absolute;
+  top: 7.05vw;
+  display: none;
+  z-index: 5;
+}
+
+.hamitem {
+  margin: 1vw;
+}
+
+.hamdiv {
+  background-color: black;
+}
+
 .meny {
   margin-left: 17vw;
   width: 9vw;
@@ -68,5 +88,26 @@ a {
   transition: 0.3s;
 }
 
+.hamdiv:hover {
+  background-color: darkgray;
+}
+
 @media screen and (max-width: 930px) {
+  .head {
+    display: none;
+  }
+
+  .meny {
+    margin-left: 60vw;
+    scale: 1.5;
+  }
+
+  .logga {
+    scale: 1.5;
+  }
+
+  #hamburgarmeny {
+    scale: 1.5;
+    top: 15vw;
+  }
 }
