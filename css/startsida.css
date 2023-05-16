@@ -9,11 +9,11 @@
 
 section {
   display: flex;
+  overflow: auto;
 }
 
 .rek {
   display: flex;
-  overflow: auto;
 }
 
 .kolum {

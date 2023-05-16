@@ -30,38 +30,54 @@ function tid(){
 
 let dag = 0
 
-function pil(n){
+function pilleft(){
     
-    if (dag == 0){
-        dag +=1
-    }  
-
-    else if (dag == 4){
+    if( dag >= 0){
         dag -= 1
-    }
+        if (dag == 0){
+            document.getElementById("dag").innerHTML = "Måndag"
+        }
 
-    else{
-        dag += n
-    }
+        else if ( dag == 1){
+            document.getElementById("dag").innerHTML = "Tisdag"
+        }
 
-    if (dag == 0){
-        getElementById("dag").innerHTML = Måndag
-    }
+        else if (dag == 2){
+            document.getElementById("dag").innerHTML = "Onsdag"
+        }
 
-    else if ( dag == 1){
-        getElementById("dag").innerHTML = Tisdag
-    }
+        else if (dag == 3){
+            document.getElementById("dag").innerHTML = "Torsdag"
+        }
 
-    else if (dag == 2){
-        getElementById("dag").innerHTML = Onsdag
+        else if (dag == 4){
+            document.getElementById("dag").innerHTML = "Fredag"
+        }
     }
+}
 
-    else if (dag == 3){
-        getElementById("dag").innerHTML = Torsdag
+function pilright(){
+    
+    if( dag <= 4){
+        dag += 1
+        if (dag == 0){
+            document.getElementById("dag").innerHTML = "Måndag"
+        }
+
+        else if ( dag == 1){
+            document.getElementById("dag").innerHTML = "Tisdag"
+        }
+
+        else if (dag == 2){
+            document.getElementById("dag").innerHTML = "Onsdag"
+        }
+
+        else if (dag == 3){
+            document.getElementById("dag").innerHTML = "Torsdag"
+        }
+
+        else if (dag == 4){
+            document.getElementById("dag").innerHTML = "Fredag"
+        }
     }
-
-    else if (dag == 4){
-        getElementById("dag").innerHTML = Fredag
-    }
-
 }
