@@ -11,14 +11,18 @@ section {
   display: flex;
 }
 
+.rek {
+  display: flex;
+  overflow: auto;
+}
+
 .kolum {
   width: 50%;
-  margin: 0.5vw;
+  margin: 5vw;
   padding: 5px;
   color: rgb(0, 0, 0);
   font-size: 2vw;
   display: flex;
-  overflow: hidden;
 }
 
 .rektext {
@@ -34,4 +38,23 @@ section {
 .rekbild {
   width: auto;
   height: auto;
+}
+
+@media screen and (max-width: 930px) {
+  .rekbild {
+    width: 20vw;
+  }
+
+  .rektext {
+    width: 45vw;
+    font-size: 4vw;
+  }
+
+  .kolum {
+    margin: 10vw;
+  }
+
+  .reklänk {
+    font-size: 7vw;
+  }
 }

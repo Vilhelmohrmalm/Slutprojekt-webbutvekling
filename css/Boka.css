@@ -36,6 +36,40 @@
   margin-left: 1vw;
 }
 
+.minivaltabell {
+  border: solid black;
+  width: 48vw;
+  padding-left: 1vw;
+  background-color: grey;
+  margin-left: 4vw;
+  padding-right: 1vw;
+}
+
+.containerdag {
+  background-color: white;
+  color: black;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  display: flex;
+}
+
+.left {
+  margin-left: 1vw;
+}
+
+.right {
+  margin-left: 18vw;
+}
+
+#dag {
+  margin-left: 21vw;
+  font-size: 1.5vw;
+}
+
+.tabell {
+  width: 48vw;
+}
+
 .boka {
   font-size: 2vw;
   margin-top: 3vw;
@@ -55,6 +89,7 @@
 
   .boka {
     scale: 1.5;
+    margin-left: 10vw;
   }
 
   .frame {
@@ -68,5 +103,20 @@
   }
   .check {
     width: 3vw;
+  }
+
+  .minivaltabell {
+    scale: 0.75;
+    margin-top: 2vw;
+    margin-bottom: 6vw;
+  }
+
+  #dag {
+    font-size: 4vw;
+    margin-left: 10vw;
+  }
+
+  .right {
+    margin-left: 7vw;
   }
 }

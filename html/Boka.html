@@ -37,32 +37,38 @@
         </div>
       </nav>
     </header>
-    <section>
-      <div>
-        <button class="val hover" onclick="salong()">Välj Salong</button>
-        <div id="salonger" class="frame">
-          <div  class="minival hover" >Täby C <input type="checkbox" class="check"></div>
-          <div  class="minival hover" >Näsbypark C <input type="checkbox" class="check"></div>
-          <div  class="minival hover" >Arninge C <input type="checkbox" class="check"></div>
-        </div>
+    <main>
+      <section>
         <div>
-          <button class="val hover" onclick="behandling()">Välj Behandling</button>
-          <div id="behandling" class="frame">
-            <div class="minival hover">Klippning <input type="checkbox" class="check"></div>
-            <div class="minival hover">Färgning <input type="checkbox" class="check"></div>
-            <div class="minival hover">Styling <input type="checkbox" class="check"></div>
+          <button class="val hover" onclick="salong()">Välj Salong</button>
+          <div id="salonger" class="frame">
+            <div  class="minival hover" >Täby C <input type="checkbox" class="check"></div>
+            <div  class="minival hover" >Näsbypark C <input type="checkbox" class="check"></div>
+            <div  class="minival hover" >Arninge C <input type="checkbox" class="check"></div>
           </div>
-        </div>
-        <div>
-          <button class="val hover" onclick="tid()">Välj Tid</button>
-          <div id="tid" class="frame">
-            <div class="minival hover">Klippning <input type="checkbox" class="check"></div>
-            <div class="minival hover">Färgning <input type="checkbox" class="check"></div>
-            <div class="minival hover">Styling <input type="checkbox" class="check"></div>
+          <div>
+            <button class="val hover" onclick="behandling()">Välj Behandling</button>
+            <div id="behandling" class="frame">
+              <div class="minival hover">Klippning <input type="checkbox" class="check"></div>
+              <div class="minival hover">Färgning <input type="checkbox" class="check"></div>
+              <div class="minival hover">Styling <input type="checkbox" class="check"></div>
+            </div>
+         </div>
+         <div>
+           <button class="val hover" onclick="tid()">Välj Tid</button>
+           <div id="tid" class="frame">
+            <div class="minivaltabell"> 
+              <div class="containerdag">
+                <button class="left pil" onclick="pil(-1)"><</button>
+                <div id="dag">Måndag</div> 
+                <button class="right pil" onclick="pil(1)">></button>
+              </div>
+              <img src="../images/tidtabell.png" class="tabell"/></div>
+           </div>
           </div>
-        </div>
-        <button class="boka hover">Boka</button>
-    </section>
+          <button class="boka hover">Boka</button>
+      </section>
+    </main>
     <footer class="kontaktinfo">
       <h3 id="kontakt">kontakta oss</h3>
       <p class="info">Mail: Vilhelm.ohrmalm@skola.taby.se</p>

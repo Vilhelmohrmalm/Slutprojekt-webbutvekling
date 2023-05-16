@@ -28,3 +28,40 @@ function tid(){
     }
 }
 
+let dag = 0
+
+function pil(n){
+    
+    if (dag == 0){
+        dag +=1
+    }  
+
+    else if (dag == 4){
+        dag -= 1
+    }
+
+    else{
+        dag += n
+    }
+
+    if (dag == 0){
+        getElementById("dag").innerHTML = Måndag
+    }
+
+    else if ( dag == 1){
+        getElementById("dag").innerHTML = Tisdag
+    }
+
+    else if (dag == 2){
+        getElementById("dag").innerHTML = Onsdag
+    }
+
+    else if (dag == 3){
+        getElementById("dag").innerHTML = Torsdag
+    }
+
+    else if (dag == 4){
+        getElementById("dag").innerHTML = Fredag
+    }
+
+}

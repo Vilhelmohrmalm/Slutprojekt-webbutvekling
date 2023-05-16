@@ -20,3 +20,14 @@ section {
 .platstext {
   font-family: "Raleway", sans-serif;
 }
+
+@media screen and (max-width: 930px) {
+  section {
+    margin-right: 1vw;
+    font-size: 4vw;
+  }
+
+  .platslänk {
+    font-size: 5vw;
+  }
+}
